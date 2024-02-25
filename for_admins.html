@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+</head>
+<body>
+    <style>
+        .input {
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            padding: 1em;
+            background-color: #ccc;
+            box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+            transition: 300ms ease-in-out;
+        }
+
+            .input:focus {
+                background-color: white;
+                transform: scale(1.05);
+                box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+            }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .h1 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #3d405b;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 17px;
+            padding: 16px;
+            width: 130px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+                .button span:after {
+                    content: '»';
+                    position: absolute;
+                    opacity: 0;
+                    top: 0;
+                    right: -15px;
+                    transition: 0.5s;
+                }
+
+            .button:hover span {
+                padding-right: 15px;
+            }
+
+                .button:hover span:after {
+                    opacity: 1;
+                    right: 0;
+                }
+
+        .button-a {
+            display: flex;
+            justify-content: center;
+        }
+
+        .list {
+            background: linear-gradient(to right, red, blue);
+            border: 0.5cm solid black;
+            border-radius: 2%;
+            color: white;
+        }
+    </style>
+    <h1>Registered users:</h1>
+    <div class="list">
+        <ol>
+            {% for user in users %}
+            <li>Username:{{user.name}}, User's surname:{{user.surname}}, User's password:{{user.password}}, User's email:{{user.email}}.</li>
+            {% endfor %}
+        </ol>
+    </div>
+
+</body>
+</html>

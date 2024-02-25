@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action="/reg" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="surname">Enter your surname:</label>
+        <input type="text" id="surname" name="surname" required>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Make up your password:</label>
+        <input type="text" id="password" name="password" required>
+
+        <button class="btn btn-primary d-inline-flex align-items-center" type="submit">
+            Submit
+            <svg class="bi ms-1" width="20" height="20"><use xlink:href="#arrow-right-short"></use></svg>
+        </button>
+    </form>
+</body>
+</html>

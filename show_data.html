@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>show Data</title>
+</head>
+<body>
+    <h1>Data</h1>
+    {% for data in post %}
+    <h1>
+        {{ data.name }}
+        {{ data.surname }}
+        {{ data.password }}
+        {{ data.email }}
+    </h1>
+
+
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Главная</title>
+</head>
+<body>
+
+    <style>
+
+        .card {
+            padding: 20px;
+            width: 330px;
+            min-height: 370px;
+            border-radius: 20px;
+            background: #e8e8e8;
+            box-shadow: 5px 5px 6px #dadada, -5px -5px 6px #f6f6f6;
+            transition: 0.4s;
+        }
+
+            .card:hover {
+                translate: 0 -10px;
+            }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2e54a7;
+            margin: 15px 0 0 10px;
+        }
+
+        .card-image {
+            min-height: 170px;
+            background-color: #c9c9c9;
+            border-radius: 15px;
+            box-shadow: inset 8px 8px 10px #c3c3c3, inset -8px -8px 10px #cfcfcf;
+        }
+
+        .card-body {
+            margin: 13px 0 0 10px;
+            color: rgb(31, 31, 31);
+            font-size: 15px;
+        }
+
+        .footer {
+            float: right;
+            margin: 28px 0 0 18px;
+            font-size: 13px;
+            color: #636363;
+        }
+
+        .by-name {
+            font-weight: 700;
+        }
+    </style>
+
+    <div class="container">
+        <div class="text-center">
+            <h1>Овощи</h1>
+        </div>
+        <p></p>
+        <button onclick="location.href='/for_admins';">Admini</button>
+        <div class="row mb-3">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://klopotenko.com/wp-content/uploads/2023/08/burjak-img.jpg" style="max-width: 100%; height: auto;" />
+                    </div>
+                    <p class="card-title">Буряк</p>
+                    <p class="card-body">
+                        Название: Citrus Beet Salad
+                        ID: 639515
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Roasted Beet and Radicchio Salad
+                        ID: 658498
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Roasted Beet Hummus
+                        ID: 658503
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Vegan Beet Borscht
+                        ID: 664396
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Fire-Roasted Jalapeño Hummus with Turnip and Beet Chips
+                        ID: 642893
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Cream of red cabbage soup
+                        ID: 640544
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Curried Cabbage & Kale Gratin
+                        ID: 641060
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Slow Cooked Corned Beef and Cabbage
+                        ID: 660266
+                        Рейтинг: Неизвестно
+                        Время приготовления: 500 мин.
+
+                        Название: Cabbage and Sausage Casserole
+                        ID: 1697585
+                        Рейтинг: Неизвестно
+                        Время приготовления: 165 мин.
+
+                        Название: Savoy Cabbage and Celery Root Soup with Leek Confit
+                        ID: 659513
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+
+
+                    <div class="card-image">
+                        <img src="https://novus.online/uploads/10/50775-2856475.jpg" style="max-width: 100%; height: auto;" />
+                    </div>
+                    <p class="card-title">Капуста</p>
+                    <p class="card-body">
+                        Название: Cream of red cabbage soup
+                        ID: 640544
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Curried Cabbage & Kale Gratin
+                        ID: 641060
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Slow Cooked Corned Beef and Cabbage
+                        ID: 660266
+                        Рейтинг: Неизвестно
+                        Время приготовления: 500 мин.
+
+                        Название: Cabbage and Sausage Casserole
+                        ID: 1697585
+                        Рейтинг: Неизвестно
+                        Время приготовления: 165 мин.
+
+                        Название: Savoy Cabbage and Celery Root Soup with Leek Confit
+                        ID: 659513
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://images.gastronom.ru/meZHz9yVMHssM5mEHIPTHZaK6spTgcyEkGNRkVrwZ6k/pr:product-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzM5NjE1YzVhLTM4ZDAtNDgxZS05OTM1LTg0YjI0MTY3NTJjNC5qcGc" style="max-width: 100%; height: auto;" />
+                    </div>
+                    <p class="card-title">Огурец</p>
+                    <p class="card-body">
+                        Название: Cucumber Vinegar Salad
+                        ID: 641024
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Farro Salad With Tomatoes, Cucumber, Mint and Feta
+                        ID: 642601
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Thai Cucumber Salad (By Roz)
+                        ID: 663100
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Feta and Cucumber Saute
+                        ID: 642621
+                        Рейтинг: Неизвестно
+                        Время приготовления: 15 мин.
+
+                        Название: Cajun Shrimp and Marinated Cucumber Salad
+                        ID: 636743
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Cream of red cabbage soup
+                        ID: 640544
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Curried Cabbage & Kale Gratin
+                        ID: 641060
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Slow Cooked Corned Beef and Cabbage
+                        ID: 660266
+                        Рейтинг: Неизвестно
+                        Время приготовления: 500 мин.
+
+                        Название: Cabbage and Sausage Casserole
+                        ID: 1697585
+                        Рейтинг: Неизвестно
+                        Время приготовления: 165 мин.
+
+                        Название: Savoy Cabbage and Celery Root Soup with Leek Confit
+                        ID: 659513
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-4">
+                <div class="card">
+
+                    <div class="card-image">
+                        <img src="https://superagronom.com/uploads/all/b8/6f/83/b86f8327de79eabd8ffb9fc358e06af9.jpeg" style="max-width: 100%; height: auto;" />
+                    </div>
+                    <p class="card-title">Кукурудза</p>
+                    <p class="card-body">
+                        Название: Corn Muffins With Fresh Corn
+                        ID: 640093
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Corn, Scallion and Cotija Dumplings in a Coconut Corn Broth
+                        ID: 640115
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Crab & Sweet Corn Soup
+                        ID: 640259
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Autumn Corn Bake
+                        ID: 633092
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Cream Corn & Chicken Soup
+                        ID: 640518
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+
+                    <div class="card-image">
+                        <img src="https://foodandmood.com.ua/i/70/90/08/709008/image_main/24f137addb2a6c8453f6224d61b22e04-quality_75Xresize_crop_1Xallow_enlarge_0Xw_740Xh_493.jpg" style="max-width: 100%; height: auto;" />
+                    </div>
+                    <p class="card-title">Морковка</p>
+                    <p class="card-body">
+                        Название: Carrot Cake Pancakes
+                        ID: 637184
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Carrot Cake Pancakes w Honey Butter
+                        ID: 637186
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Savory Carrot Souffle
+                        ID: 659459
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Carrot Cake Snack Bites
+                        ID: 637187
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+
+                        Название: Carrot Cucumber Salad (Asian Style)
+                        ID: 637194
+                        Рейтинг: Неизвестно
+                        Время приготовления: 45 мин.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- vhrebbvbrFHVBDHVBHDVBDGFBGVDVBDG-->
+    <div class="text-center">
+        <h1>Мясо / Риба</h1>
+    </div>
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8132y6g9fnXHFbAG_EfJ1DhvGOPQDfeV_Nw&usqp=CAU" style="max-width: 100%; height: auto;" />
+                </div>
+                <p class="card-title">Тунец</p>
+                <p class="card-body">
+                    Название: Tuna Mexi Melts
+                    ID: 663931
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Mediterrean Tuna Salad
+                    ID: 651453
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Spicy Tuna Cakes
+                    ID: 661218
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Tuna Stuffed Hard-Boiled Eggs
+                    ID: 663950
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Baharat Panko Crusted Albacore Tuna
+                    ID: 633386
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                </p>
+            </div>
+        
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://strikeandcatch.com/wp-content/uploads/2021/06/feature-crucian-min.jpg" style="max-width: 100%; height: auto;" />
+                </div>
+                <p class="card-title">Карась</p>
+                <p class="card-body">
+                    Название: Tuna Mexi Melts
+                    ID: 663931
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Mediterrean Tuna Salad
+                    ID: 651453
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Spicy Tuna Cakes
+                    ID: 661218
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Tuna Stuffed Hard-Boiled Eggs
+                    ID: 663950
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Baharat Panko Crusted Albacore Tuna
+                    ID: 633386
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                </p>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://www.southernliving.com/thmb/-TWfCwlFHd-7DIzTIYXh2Zxr_f8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/How_To_Grill_Chicken_010-e4aff40705b247868fe3fb6755e8bdd4.jpg" style="max-width: 100%; height: auto;" />
+                </div>
+                <p class="card-title">Курица</p>
+                <p class="card-body">
+                    Название: Authentic Jamaican Curry Chicken
+                    ID: 633088
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Chicken, Red Pepper, and White Bean Chili
+                    ID: 638464
+                    Рейтинг: Неизвестно
+                    Время приготовления: 75 мин.
+
+                    Название: Hyderabadi Chicken Curry
+                    ID: 647680
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Light and Chunky Chicken Soup
+                    ID: 649985
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Grilled Chicken Banh Mi
+                    ID: 645634
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://i.pinimg.com/736x/37/cd/f3/37cdf3e11ac9e34e5d270805eb2fbf7f.jpg" style="max-width: 100%; height: auto;" />
+                </div>
+                <p class="card-title">Сом</p>
+                <p class="card-body">
+                    Название: Tuna Mexi Melts
+                    ID: 663931
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Mediterrean Tuna Salad
+                    ID: 651453
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Spicy Tuna Cakes
+                    ID: 661218
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Tuna Stuffed Hard-Boiled Eggs
+                    ID: 663950
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Baharat Panko Crusted Albacore Tuna
+                    ID: 633386
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+                </p>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/delish-roast-beef-horizontal-1540505165.jpg?crop=1xw:0.84375xh;center,top" style="max-width: 100%; height: auto;" />
+                </div>
+                <p class="card-title">Говядина</p>
+                <p class="card-body">
+                    Название: Chorizo and Beef Quinoa Stuffed Pepper
+                    ID: 715523
+                    Рейтинг: Неизвестно
+                    Время приготовления: 30 мин.
+
+                    Название: Beef Lo Mein Noodles
+                    ID: 634629
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Broccoli Beef Stir-Fry
+                    ID: 636167
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: An American Beef Burger
+                    ID: 632342
+                    Рейтинг: Неизвестно
+                    Время приготовления: 45 мин.
+
+                    Название: Don't Leave Home Without It: Homemade Beef Jerky to Take on Your Next Hike
+                    ID: 1697817
+                    Рейтинг: Неизвестно
+                    Время приготовления: 980 мин.
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+        
+    <h1>Фрукты</h1>
+    <button>Банан</button>
+    <button>Яблоко</button>
+    <button>Апельсин</button>
+    <button>Виноград</button>
+    <button>Манго</button>
+
+
+
+</body>
+</html>
